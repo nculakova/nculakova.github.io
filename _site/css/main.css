@@ -1,18 +1,17 @@
 body {
     margin: 60px auto;
     width: 70%;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
-    list-style: none;
+    list-style: inside;
     font-weight: bold;
-    align-self: center;
 }
 nav ul li, footer ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
-    align-self: center;
 }
 a {
     text-decoration: none;
@@ -41,5 +40,9 @@ ul.posts {
 }
 
 ul.posts li {
-    list-style: none;
+    list-style: square;
+}
+
+a.active {
+  color: black
 }

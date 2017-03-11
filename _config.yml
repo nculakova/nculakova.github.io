@@ -1,3 +1,9 @@
 name: Natalia C
+title: Natalia C Personal Website
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+highlighter: rouge
+
+collections:
+  projects:
+      output: true

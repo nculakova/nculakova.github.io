@@ -1,0 +1,11 @@
+---
+layout: default
+title: Independent work
+---
+{% for project in site.projects %}
+  {% unless project.school%}
+    <div class="projects">
+      <h2><a href="{{ project.url }}"> {{ project.title }} </a></h2>
+    </div>
+  {% endunless %}
+{% endfor %}
