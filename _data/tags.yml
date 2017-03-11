@@ -1,0 +1,12 @@
+github-pages:
+  name: GitHub Pages
+web:
+  name: Website
+github:
+  name: GitHub
+markdown:
+  name: Markdown
+css:
+  name: CSS
+jekyll:
+  name: Jekyll
