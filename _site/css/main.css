@@ -104,9 +104,10 @@ img {
   line-height: 0.7em;
 }
 
-.cv h2, h3 {
+.cv h2, h3, h4 {
   line-height: 0.9em;
   color: grey;
+  text-align: center;
 }
 
 .cv p {

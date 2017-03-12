@@ -5,7 +5,11 @@ course: Web Publishing
 school: FIIT STU BA
 tags: [web, jekyll, markdown, css, github, github-pages]
 ---
-## Collections
+### Source [Github](https://github.com/nculakova/nculakova.github.io)
+____
+
+## Kolekcie
+
 V zadaní som použila niekoľko kolekcií pre uľahčenie práce:
 * **hobbies** - na vytvorenie podsekcií rôznych záľub ako knihy, podcasty alebo fotografie
 * **projects** - pre spravovanie projektov, školských aj samostatných
@@ -27,22 +31,20 @@ a ďalšie
 ## Layouty
 
 Pre uľahčenie práce a obmedzenie redundancie som použila niekoľko layoutov:
-* *default*
-* *hobby*
-* *photo*
-* *post*
-* *project*
+* *default* - defaultný layout, ktorý je použitý na všetkých stránkach, obsahuje menu, header a footer
+* *hobby* - layout, ktorý je použitý pre zobrazenie kníh, filmov a podcastov
+* *photo* - layout pre zobrazenie detailu fotografie s popisom
+* *post* - jednoduchý layout pre zobrazenie blogových príspevkov
+* *project* - layout pre vyobrazenie rôznych projektov
 
 ## Filtre a tagy
 
 V zadaní som využila niekoľko základných filtrov a tagov:
-* *sort*
-* *include*
-* *for*
-* *assign*
-* *if*
-* *unless*
+* *sort* - je použitý pre zoradenie zobrazenia navigácie (menu)
+* *include* - používam ho pre includeovanie rôznych častí CV
+* *for* - je využitý napríklad pre zobrazenie všetkých kolekcií
+* *assign* - používam ho pri tagoch rovnako ako pri zoraďovaní menu pre jednoduchšiu prácu
+* *if* a *unless* - používam na niekoľkých miestach pre zisťovanie ktoré podstránky kde zobraziť
 
 ## Plugin
-
-Source [Github](https://github.com/nculakova/nculakova.github.io)
+Použila som jednoduchý jekyll-spotify plugin na zobrazenie mojich mesačných playlistov. [github](https://github.com/MertcanGokgoz/Jekyll-Spotify)
