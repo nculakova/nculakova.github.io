@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<ul class="default">
+  <div markdown="1">
+      <h2>{{ page.title }}</h2>
+      {% if page.type == 'movie' or page.type == 'tv-show' %}
+        <h3>{{ page.type}}</h3>
+      {% endif %}
+      <h3>{{ page.author }}, {{ page.date }}</h3>
+      {{ page.content }}
+      {{page.category}}
+  </div>
+</ul>

@@ -2,3 +2,8 @@
 layout: default
 title: Podcasts
 ---
+{% for podcast in site.podcasts %}
+    <div class="hobbies">
+      <h3><a href="{{ podcast.url }}"> {{ podcast.title }} </a></h3>
+    </div>
+{% endfor %}

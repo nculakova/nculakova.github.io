@@ -2,3 +2,8 @@
 layout: default
 title: Film
 ---
+{% for film in site.films %}
+    <div class="hobbies">
+      <h3><a href="{{ film.url }}"> {{ film.title }} </a></h3>
+    </div>
+{% endfor %}

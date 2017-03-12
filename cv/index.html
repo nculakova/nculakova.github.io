@@ -3,6 +3,9 @@ layout: default
 title: CV
 nav_weight: 3
 ---
-	<ul class="default">
-	
-	</ul>
+{% for i in site.cv %}
+
+    <div class="cv">
+      <h3><a href="{{ i.url }}"> {{ i.title }} </a></h3>
+    </div>
+{% endfor %}

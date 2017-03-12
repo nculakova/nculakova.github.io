@@ -2,3 +2,8 @@
 layout: default
 title: Literature
 ---
+{% for book in site.books %}
+    <div class="hobbies">
+      <h3><a href="{{ book.url }}"> {{ book.title }} </a></h3>
+    </div>
+{% endfor %}
