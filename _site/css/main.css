@@ -64,3 +64,18 @@ ul.posts li {
 a.active {
   color: black
 }
+photo.image {
+    float: left;
+  	width: 33%;
+  	box-sizing: border-box;
+  	padding: 0 30px;
+  	height: 450px;
+}
+
+photo.image:hover {
+  filter: grayscale();
+}
+
+.image {
+  max-width: 800px
+}

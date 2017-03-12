@@ -7,3 +7,5 @@ highlighter: rouge
 collections:
   projects:
       output: true
+  hobbies:
+      output: true

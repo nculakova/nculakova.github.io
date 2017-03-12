@@ -2,7 +2,7 @@
 layout: hobby
 title: I'm OK - You're OK
 author: Thomas Anthony Harris
-date: 1967
+my-date: 1967
 category: Psychology, psychotherapy
 type: book
 ---

@@ -2,3 +2,15 @@
 layout: default
 title: Photography
 ---
+{% for hobby in site.hobbies %}
+  {% if hobby.type == 'photo' %}
+    <div class="photo">
+      <div class="image">
+        <a href="{{ hobby.url }}">
+        <img src="{{ hobby.image_path }}" alt="{{ hobby.title }}"/>
+        </a>
+      </div>
+      <h2><a href="{{ hobby.url }}">{{ hobby.title }}</a></h2>
+    </div>
+  {% endif %}
+{% endfor %}

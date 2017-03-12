@@ -2,7 +2,7 @@
 layout: hobby
 title: Sense8
 author: Netflix
-date: 2015
+my-date: 2015
 category: Sci-Fi, Drama, Mystery
 type: tv-show
 ---

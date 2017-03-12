@@ -2,7 +2,7 @@
 layout: hobby
 title: TED Radio Hour
 author: NPR & TED
-date: Weekly
+my-date: Weekly
 category: Technology
 type: podcast
 ---
