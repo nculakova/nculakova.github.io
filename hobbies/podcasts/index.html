@@ -2,8 +2,10 @@
 layout: default
 title: Podcasts
 ---
-{% for podcast in site.podcasts %}
+{% for hobby in site.hobbies %}
+  {% if hoby.type == 'podcast' %}
     <div class="hobbies">
-      <h3><a href="{{ podcast.url }}"> {{ podcast.title }} </a></h3>
+      <h3><a href="{{ hobby.url }}"> {{ hobby.title }} </a></h3>
     </div>
+  {% endif %}
 {% endfor %}

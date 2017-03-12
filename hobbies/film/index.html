@@ -2,8 +2,10 @@
 layout: default
 title: Film
 ---
-{% for film in site.films %}
+{% for hobby in site.hobbies %}
+  {% if hobby.type == 'movie' or hobby.type == 'tv-show' %}
     <div class="hobbies">
-      <h3><a href="{{ film.url }}"> {{ film.title }} </a></h3>
+      <h3><a href="{{ hobby.url }}"> {{ hobby.title }} </a></h3>
     </div>
+  {% endif %}
 {% endfor %}
