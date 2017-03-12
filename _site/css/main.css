@@ -64,18 +64,67 @@ ul.posts li {
 a.active {
   color: black
 }
-photo.image {
-    float: left;
-  	width: 33%;
-  	box-sizing: border-box;
-  	padding: 0 30px;
-  	height: 450px;
+
+.photos {
+    display: inline-block;
+    max-height: 150px;
+    width: 700px;
 }
 
-photo.image:hover {
+.photo img {
+   max-height: 150px;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-top: 5px;
+}
+
+.photo img:hover {
   filter: grayscale();
 }
 
-.image {
-  max-width: 800px
+.photo h2 {
+	font-size: 20px;
+  color: black;
+}
+
+.photo body {
+  text-align: center;
+}
+
+.photo p {
+  text-align: center;
+}
+
+img {
+  max-width: 500px
+}
+
+.cv {
+  text-align: left;
+  line-height: 0.7em;
+}
+
+.cv h2, h3 {
+  line-height: 0.9em;
+  color: grey;
+}
+
+.cv p {
+  line-height: 1em;
+  font-size: 15px;
+}
+
+.project {
+  text-align: left;
+}
+
+.project h2, h3 {
+  line-height: 0.9em;
+  color: grey;
+  text-align: center;
+}
+
+.project p {
+  line-height: 1em;
+  font-size: 15px;
 }

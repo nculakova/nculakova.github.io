@@ -2,6 +2,7 @@
 layout: default
 title: Photography
 ---
+<div class="photos">
 {% for hobby in site.hobbies %}
   {% if hobby.type == 'photo' %}
     <div class="photo">
@@ -14,3 +15,4 @@ title: Photography
     </div>
   {% endif %}
 {% endfor %}
+</div>

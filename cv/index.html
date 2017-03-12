@@ -3,9 +3,12 @@ layout: default
 title: CV
 nav_weight: 3
 ---
-{% for i in site.cv %}
+	<div class="cv" markdown="1">
+{% include career-profile.html %}
 
-    <div class="cv">
-      <h3><a href="{{ i.url }}"> {{ i.title }} </a></h3>
-    </div>
-{% endfor %}
+{% include experience.html %}
+
+{% include education.html %}
+
+{% include skills.html %}
+</div>
