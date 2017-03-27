@@ -24,6 +24,7 @@ V zadaní som prepisovala prvú časť mojej bakalárskej práce do docbook šab
 
 Pre odkazy na rôzne časti dokumentu ako kapitoly, sekcie či obrázky som využila možnosť priradiť rôznym elementom id a tiež tag:
 * **link** - kde pomocou atribútu linkend=id určujem na ktorú časť sa má odkazovať
+
 Poznámku pod čiarou som zabezpečila jednoduchým tagom:
 * **footnote**
 
@@ -34,6 +35,7 @@ Bibliografiu som vytvorila pomocou niekolkých tagov:
 * **bibliography** - pre vytvorenie bibliografickej sekcie
 * **bibliomixed** - pre vytvorenie konkrétnych záznamov v bibliografii
 * **abbrev** - pre vytvorenie tagu pre každý záznam pomocou ktorého sa neskôr cituje
+
 Register pojmov som znovu vytvorila len pomocou zopár tagov
 * **index**  - pre vygenerovanie sekcie registra pojmov
 * **indexterm** - pre označenie jednotlivých pojmov do registra
@@ -45,6 +47,7 @@ Pre vloženie obrázkov som použila tag:
 * **mediaobject**
 * **imageobject** a **imagedata** - pre vloženie konkrétneho odkazu na obrázok
 * **textobject** a **phrase** - pre vloženie popisu k obrázku
+
 Vzorce som riešila niekoľkými spôsobmi. Jednoduché vzorce som vložila len pomocou UTF-8 kódov znakov, zložitejšie som vkladala cez screenshoty vzorcov a pomocou tagov
 * **equation** a **inlineequation** - podľa umiestnenia obrázku 
 a cez 
