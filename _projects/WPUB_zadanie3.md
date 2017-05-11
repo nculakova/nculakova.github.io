@@ -19,12 +19,12 @@ Obsah prezentácie je v súbore presentation.xml kde pomocou tagov vytvárame je
 * **b** - pre tučný text
 * **presentation-title, section-title, title** - pre jednotlivé nadpisy
 * **author, institution** - informácie o tom kto vytváral prezentáciu na úvodnú stranu
-* **figure: image, description ** - element pre obrázok s podelementmi obrázku s odkazom a popisom
-* **list: itemized/enumerated ** - očíslovaný a neočíslovaný list s elementmi **item** pre jednotlivé body
+* **figure: image, description** - element pre obrázok s podelementmi obrázku s odkazom a popisom
+* **list: itemized/enumerated** - očíslovaný a neočíslovaný list s elementmi *item* pre jednotlivé body
 
 ## Transformácia
 
-V oboch XSL súboroch som vytvorila templatey pre jednotlivé elementy z XML pomocou **xsl:template match=""**.
+V oboch XSL súboroch som vytvorila templatey pre jednotlivé elementy z XML pomocou *xsl:template match="element"*.
 
 ## Transformácia do HTML
 
